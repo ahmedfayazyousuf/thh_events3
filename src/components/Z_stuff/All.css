@@ -1,0 +1,73 @@
+body, html {
+    background-color: #232323;
+}
+
+@font-face{
+    font-family: myFont;
+    src:url(PFSpekkVAR-Bold.otf);
+}
+h1,h2,h3,h4,h5,h6,a,button,div, tr, td, table, th, .sss{
+    font-family: myFont;
+}
+
+.ButtonDiv {
+    cursor: grab;
+    background-color: #3A3A3A;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border-bottom: #00f526;
+    color: white;
+    font-weight: 900;
+}
+
+.ButtonDiv:hover {
+    transition: background-color 0.5s ease;
+    border: 0.5px solid #00f526;
+    color: #00f526;
+}
+
+
+
+.ButtonDiv2 {
+    cursor: grab;
+    font-size: 16px;
+    background-color: #3A3A3A;
+    /* border: solid 2px; */
+    border-bottom: solid 2px #00f526;
+    width: 140px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.ButtonDiv2:hover {
+    transition: background-color 0.5s ease;
+    background-color: #00f526;
+    color: black;
+}
+.green{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+    .holder {
+        flex-direction: column;
+    }
+    .green{
+        flex-direction: row;
+    }
+  }
+
+a{
+    text-decoration: none;
+}
