@@ -1,5 +1,6 @@
 body, html {
     background-color: #232323;
+    overflow-x: hidden;
 }
 
 @font-face{
@@ -59,12 +60,30 @@ h1,h2,h3,h4,h5,h6,a,button,div, tr, td, table, th, .sss{
     flex-wrap: nowrap;
 }
 
+.welcome{
+    font-size: 30px;
+}
+.implinks{
+    font-size: 60px;
+}
+
+
 @media screen and (max-width: 800px) {
     .holder {
         flex-direction: column;
     }
     .green{
         flex-direction: row;
+    }
+
+    .homediv{
+        flex-direction: column;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    .implinks{
+        font-size: 30px;
     }
   }
 

@@ -5,9 +5,9 @@ import thhlogo from '../Z_stuff/thhlogo.png'
 const Activation = () => { 
     return (
         <>
-            <div className='main' style={{display:'flex', flexDirection: 'column', width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center'}}>
+            <div className='main' style={{display:'flex', flexDirection: 'column', width: '100vw', height: '100vh', justifyContent: 'center', alignItems: 'center'}}>
 
-            <img style={{width: '100px', marginTop: '80px'}} src={thhlogo} alt="THHLogo"/>
+            <img style={{width: '100px'}} src={thhlogo} alt="THHLogo"/>
             
             {/* <div style = {{display: 'flex', width: '100%', height: '100%', backgroundColor: 'red', justifyContent: 'center', alignItems: 'center' }}> */}
                 <h1 style={{color: 'white', fontSize: '20px' }}>WEB APPS - ACTIVATIONS</h1>    

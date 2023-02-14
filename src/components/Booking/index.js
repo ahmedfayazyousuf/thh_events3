@@ -7,13 +7,13 @@ const Booking = () => {
         <>
             <div className='main' style={{display:'flex', flexDirection: 'column', width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center'}}>
 
-            <img style={{width: '100px', marginTop: '80px'}} src={thhlogo} alt="THHLogo"/>
+            <img style={{width: '100px'}} src={thhlogo} alt="THHLogo"/>
             
             {/* <div style = {{display: 'flex', width: '100%', height: '100%', backgroundColor: 'red', justifyContent: 'center', alignItems: 'center' }}> */}
                 <h1 style={{color: 'white', fontSize: '20px' }}>WEB APPS - ACTIVATIONS</h1>    
             {/* </div> */}
 
-                <div className='green' style={{display: 'flex', gap: '20px', padding: '20px', justifyContent: 'center', alignItems: 'center'}}>
+                <div className='green' style={{display: 'flex', gap: '20px', padding: '20px', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
                     <div className='holder' style={{display: 'flex', gap: '20px', padding: '10px'}}>
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://carbookingapp.vercel.app/">

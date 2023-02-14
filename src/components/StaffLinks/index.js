@@ -8,12 +8,12 @@ const Home = () => {
 
     return (
         <>
-            <div className='main' style={{display:'flex', flexDirection: 'column', width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center'}}>
+            <div className='main' style={{display:'flex', flexDirection: 'column', width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
 
             <img style={{width: '100px', marginTop: '80px'}} src={thhlogo} alt="THHLogo"/>
             <h1 style={{color: 'white', fontSize: '40px' }}>STAFF LINKS</h1>    
 
-                <div className='green' style={{display: 'flex', gap: '20px', padding: '20px', justifyContent: 'center', alignItems: 'center'}}>
+                <div className='green' style={{display: 'flex', gap: '20px', justifyContent: 'center', alignItems: 'center', marginBottom: '50px'}}>
                     <div className='holder' style={{display: 'flex', gap: '20px'}}>
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://thehanginghouse.webhr.co/hr/home">
