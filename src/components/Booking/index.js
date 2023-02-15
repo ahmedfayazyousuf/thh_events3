@@ -28,6 +28,8 @@ const Booking = () => {
                         <a target="_blank" href="https://kite-festival-app.vercel.app/">
                             <div className="ButtonDiv2" style={{width: '280px'}}>
                                 <p>Kite Festival Booking App</p>
+                                <p style={{fontSize: '12px', marginTop: '-17px', color: 'grey'}}>name: admin </p>
+                                <p style={{fontSize: '12px', marginTop: '-17px', color: 'grey'}}>password: admin123</p>
                             </div>
                         </a>
                     </div>
