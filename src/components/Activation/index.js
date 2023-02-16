@@ -18,14 +18,14 @@ const Activation = () => {
 
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://uploadimage.vercel.app/">
-                            <div className="ButtonDiv2" style={{width: '180px'}}>
+                            <div className="ButtonDiv2" style={{width: '170px'}}>
                                 <p>Image Upload</p>
                             </div>
                         </a>
                         
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://nissanandinfinititrivia.vercel.app/">
-                            <div className="ButtonDiv2" style={{width: '180px'}}>
+                            <div className="ButtonDiv2" style={{width: '170px'}}>
                                 <p>Nissan Trivia</p>
                                 <p style={{fontSize: '12px', marginTop: '-17px', color: 'grey'}}>Code: 00000J</p>
                             </div>
@@ -33,7 +33,7 @@ const Activation = () => {
 
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://f1game.vercel.app/">
-                            <div className="ButtonDiv2" style={{width: '180px'}}>
+                            <div className="ButtonDiv2" style={{width: '170px'}}>
                                 <p>F1 Trivia</p>
                             </div>
                         </a>
@@ -44,14 +44,14 @@ const Activation = () => {
                     <div className='holder' style={{display: 'flex', gap: '20px', padding: '20px'}}>
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://thh-internal.web.app/">
-                            <div className="ButtonDiv2" style={{width: '180px'}}>
+                            <div className="ButtonDiv2" style={{width: '170px'}}>
                                 <p>Puzzle Game</p>
                             </div>
                         </a>
 
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://cwnvirtualescaperoom.azurewebsites.net/">
-                            <div className="ButtonDiv2" style={{width: '180px'}}>
+                            <div className="ButtonDiv2" style={{width: '170px'}}>
                                 <p>Escape Room</p>
                             </div>
                         </a>
