@@ -27,7 +27,7 @@ const Activation = () => {
                         <a target="_blank" href="https://nissanandinfinititrivia.vercel.app/">
                             <div className="ButtonDiv2" style={{width: '180px'}}>
                                 <p>Nissan Trivia</p>
-                                <p style={{fontSize: '12px', marginTop: '-17px', color: 'grey'}}>Code: 00000</p>
+                                <p style={{fontSize: '12px', marginTop: '-17px', color: 'grey'}}>Code: 00000J</p>
                             </div>
                         </a>
 
