@@ -67,7 +67,7 @@ const Home = () => {
                             </div>
                         </a>
 
-                        {/* eslint-disable-next-line */}
+                        {/* eslint-disable-next-line */} 
                         <a target="_blank" href="https://analytics.google.com/analytics/web/?authuser=1#/report-home/a138673239w199446139p193870326">
                             <div className="ButtonDiv2">
                                 <p>Google Analytics</p>
